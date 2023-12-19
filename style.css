@@ -65,3 +65,28 @@
 
     margin-top: 1.3rem;
 }
+
+
+.mywork{
+    margin-top: 3rem;
+}
+
+
+.mywork>h3{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+.workimg>img{
+    width: 250px;
+    height: 200px;
+}
+
+
+.gitimg{
+    width: 10px;
+    height: 10px;
+}
+
