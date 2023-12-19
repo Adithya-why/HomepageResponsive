@@ -10,7 +10,7 @@
 }
 
 .header{
-    background-color: lightblue;
+    background-color: #3887BE;
     height: 40%;
 
     display: flex;
@@ -53,6 +53,15 @@
 
 
 .icons>img{
-    width: 15px;
-    height: 15px;
+    width: 2%;
+    height: 2%;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+
+    margin-top: 1.3rem;
 }
