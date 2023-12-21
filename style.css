@@ -15,14 +15,33 @@ html,body{
 }
 
 .header{
-    background-color: #3887BE;
+    background-color: white;
     height: 60%;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* position: relative; */
     /* gap: 1rem; */
 
+
+    /* clip-path: polygon(0 0, 100% 0%, 100% 50%, 0% 100%); */
+   
+
+}
+
+
+.header::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:60%;
+    background-color: #3887BE;
+    
+    clip-path: polygon(0 0, 100% 0%, 100% 20%, 0% 95%);
 }
 
 
@@ -48,6 +67,11 @@ html,body{
     box-shadow: 1px 1px 1px 1px lightslategray;
     /* border-radius: 10px; */
     
+}
+
+
+.imgwrap,.about{
+    z-index: 10;
 }
 
 .about h3{
