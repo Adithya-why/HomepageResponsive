@@ -203,7 +203,7 @@ button{
     transition: transform 0.1s ease-in;
 }
 
-button:hover,img:hover{
+button:hover{
     transform: scaleX(1.2) translateY(-4px);
 }
 
