@@ -106,18 +106,22 @@ html,body{
     font-size: 2rem;
     text-align: center;
     font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
 }
 
 
 .workimg>img{
     width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 
 .workimg{
     width: 100%;
     height: auto;
+    
 }
 
 
@@ -136,6 +140,10 @@ html,body{
 
     box-shadow: 2px 2px 2px 2px lightgray;
     padding: 1rem;
+
+    border-radius: 5px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -182,6 +190,22 @@ html,body{
     padding-bottom: 3rem;
 }
 
+
+.workname:nth-child(1){
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+button{
+    padding: 8px;
+    border-radius: 10px;
+    transition: transform 0.1s ease-in;
+}
+
+button:hover,img:hover{
+    transform: scaleX(1.2) translateY(-4px);
+}
 
 .contact{
     background-color: #3887BE;
